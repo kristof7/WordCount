@@ -13,6 +13,7 @@ public class WordCount {
             words += line.split(" ").length;
         }
             System.out.println("The file contains "+words+" words.");
+
     }
 }
 
