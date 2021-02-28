@@ -1,6 +1,7 @@
+package app;
+
 import java.io.File;
 import java.util.Scanner;
-
 
 public class WordCount {
 
@@ -13,7 +14,6 @@ public class WordCount {
             words += line.split(" ").length;
         }
             System.out.println("The file contains "+words+" words.");
-
     }
 }
 
